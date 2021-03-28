@@ -21,10 +21,10 @@
 
 ### 2. task list extention 
 - task list는 추가적인 수행 단계를 list item들로 나타낼 수 있으며 이는 check box 형태로 표현 된다.  
-> #### [표현 방법] : \- \[ \] 사용하기 
+> #### [표현 방법] : \- [] 사용하기 
 >> 1. - 사용하여 task list 임을 알린다. 
->> 2. \[ \] 을 사용하는데, 이때 [ ] 안에 space 혹은 글자 **x**를 넣어준다. 이는 checkbox 형태에서 unchecking 혹은 checking 형태로 나타날 것이다.
->> 3. \[ \] 뒤에 기입하고자 하는 내용을 넣는다. 
+>> 2. [] 을 사용하는데, 이때 [] 안에 space 혹은 글자 **x**를 넣어준다. 이는 checkbox 형태에서 unchecking 혹은 checking 형태로 나타날 것이다.
+>> 3. [] 뒤에 기입하고자 하는 내용을 넣는다. 
 >> 4. 들여쓰기하여 새로운 task list를 만들 수 있다. 
 
 ![EA86B94E-A199-46F4-A713-BBFB1EB2EC46](https://user-images.githubusercontent.com/81100851/112734581-04940380-8f8a-11eb-8cb4-ad17ee1fa729.png)
@@ -49,7 +49,8 @@
 |URL|  http:// 혹은 https:// 중 하나일때 URL이 인식된다.|
 |email|1. text node 1개 이상 있을 때 인지된다.<br> 2. **alphanumeric과 -와_ 는 한개 이상의 .을 가지고 있어야 인지된다** <br> *단, 이때, text node 중  ~~- 와 _ 는 맨 끝의 character~~가 되서는 안된다.*<br> *또한, Trailing punctiation( . ? ! , : * _ ~) 은 autolink로 고려되지 않는다.*|
 
-> *text node란 alphanumeric 혹은 . - _ + @ 을 나타낸다.*
+> *text node란 alphanumeric 혹은 . - _ + @ 을 나타낸다.* <br>
+
 > *주의 : Autolinks 나타내는 link들은 모두 space 와 -< character가 없어야 한다.* 
 
 
